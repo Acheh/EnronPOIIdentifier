@@ -1,0 +1,16 @@
+(lp0
+S'poi'
+p1
+aS'deferred_income'
+p2
+aS'expenses'
+p3
+aS'other'
+p4
+aS'bonus_fraction'
+p5
+aS'from_poi_fraction'
+p6
+aS'to_poi_fraction'
+p7
+a.

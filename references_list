@@ -1,0 +1,15 @@
+- https://www.theguardian.com/business/2002/jan/13/corporatefraud.enron
+- http://www.cnn.com/2013/07/02/us/enron-fast-facts/index.html
+- https://www.yourlawyer.com/securities-fraud/fastow-7-ex-enron-execs-charged/
+- https://discussions.udacity.com/t/getting-features-with-highest-feature-score-from-gridsearchcv-with-featureunion-pca-selectkbest-and-svc/244693
+- https://discussions.udacity.com/t/how-to-get-kbest-features-kept/160463/3
+- http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedShuffleSplit.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.FeatureUnion.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.Normalizer.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html
+- http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
