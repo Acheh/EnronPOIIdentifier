@@ -41,12 +41,12 @@ To get the PoI identifier, run poi_id.py. Make sure you have the following packa
 - model training using GaussianNB, DecisionTreeClassifier, RandomForestClassifier, and AdaBoostClassifier
 
 ## Result
-- feature engineering:
+### Feature Engineering:
 * bonus_fraction : a fraction of bonus to the salary, which might be more useful than simply bonus, because a higher bonus-fraction might indicate fraud or bribery.
 * from_poi_fraction : a fraction of the number of e-mails received from poi to the number of total e-mails received, which is more telling of how often a person communicate with poi than non-poi in general.
 * to_poi_fraction : a fraction of the number of e-mails sent to poi to the number of total e-mails sent, which is also more telling of how often a person communicate with poi than non-poi in general.
 
-- feature selection using SelectKBest(k=6)
+### Feature Selection using SelectKBest(k=6)
 | Feature            | SelectKBest Score | SelectKBest P-value | DecisionTreeClassifier Feature Importance |
 |--------------------|:-----------------:|:-------------------:|:-----------------------------------------:|
 | other              |03.15              |0.08                 |0.39                                       |
@@ -56,15 +56,15 @@ To get the PoI identifier, run poi_id.py. Make sure you have the following packa
 | deferred_income    |09.01              |0.00                 |0.08                                       |
 | bonus_fraction     |07.73              |0.01                 |0.08                                       |
 
-- final classifier:
+### Final Classifier:
 **DecisionTreeClassifier**(min_samples_leaf=4, max_depth=5, class_weight=balanced)
-Accuracy: 0.81085
-Precision: 0.42028
-Recall: 0.60500
-F1: 0.49600
-F2: 0.55612
-Total predictions: 13000
-True positives: 1210
-False positives: 1669
-False negatives:  790
-True negatives: 9331
+- Accuracy: 0.81085
+- Precision: 0.42028
+- Recall: 0.60500
+- F1: 0.49600
+- F2: 0.55612
+- Total predictions: 13000
+- True positives: 1210
+- False positives: 1669
+- False negatives:  790
+- True negatives: 9331
